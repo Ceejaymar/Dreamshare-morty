@@ -2,3 +2,18 @@
   padding: 0;
   margin: 0;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10 / 16 = .625, for rems
+}
+
+body {
+  // font-family: ;
+}
