@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 96rem;
+  color: $color-white;
+  font-family: 'Montserrat', sans-serif;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  &__brand {
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+    font-weight: 700;
+  }
+
+  &__link {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: $color-white;
+    text-decoration: none;
+
+    &--1 {
+      padding: 1rem;
+    }
+
+    &--2 {
+      border: 1px solid $color-white;
+      padding: .3rem 1rem;
+      border-radius: 4rem;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem;
+  }
+
+  &__title {
+    font-size: 5.2rem;
+    width: 47rem;
+    font-weight: 700;
+    line-height: 6.3rem;
+    text-align: center;
+    text-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
+    text-transform: uppercase;
+  }
+
+  &__sub-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-shadow: 0 2px 10px 0 rgb(0,0,0);
+    margin: 3rem;
+  }
+
+  &__cta {
+    height: 4rem;
+    width: 22.5rem;
+    background-color: $color-red;
+    border: none;
+    border-radius: 4rem;
+    color: $color-white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    cursor: pointer;
+  } 
+}
