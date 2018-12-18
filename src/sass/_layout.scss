@@ -5,3 +5,9 @@
   background-image: linear-gradient(to bottom, rgba($color-black, .50), rgba($color-black, .50)), url('../assets/Bitmap.png');
   // background: linear-gradient(0deg, #FF4E50 0%, #F9D423 100%);
 }
+
+.section-howitworks {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
