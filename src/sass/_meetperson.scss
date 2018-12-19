@@ -1,0 +1,68 @@
+.meet-person {
+  width: 96rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: firebrick;
+  
+  &__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    color: $color-grey-dark;
+    margin: 2rem 0 3rem 0;
+  }
+  
+  &__people {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__content {
+    // color: $color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  &__name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: $color-grey-dark;
+    margin: 0 0 1.5rem;
+  }
+  
+  &__bio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    color: $color-grey-medium;
+    padding: 0 1rem;
+  }
+  
+  &__cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border: 2px solid $color-red;
+    color: $color-red;
+    border-radius: 40px;
+    padding: .4rem 1.5rem;
+    margin: 3.5rem 0 3rem 0;
+    transition: all .3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-red;
+      color: $color-white;
+    }
+  }
+}
