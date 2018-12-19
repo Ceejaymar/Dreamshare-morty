@@ -27,6 +27,7 @@ const HowItWorks = () => {
           {
             cards.map((card, key) => {
               let { id, title, para } = card;
+              
               return (
                 <article key={key} className={ `how-it-works__card how-it-works__card--${card.id}` }>
                   <div className="how-it-works__content">

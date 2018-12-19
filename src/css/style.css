@@ -37,7 +37,11 @@ html {
     .header__link--2 {
       border: 1px solid #ffffff;
       padding: .3rem 1rem;
-      border-radius: 4rem; }
+      border-radius: 4rem;
+      transition: all .3s; }
+      .header__link--2:hover {
+        background-color: #ffffff;
+        color: rgba(0, 0, 0, 0.3); }
   .header__content {
     display: flex;
     flex-direction: column;
@@ -61,13 +65,17 @@ html {
     height: 4rem;
     width: 22.5rem;
     background-color: #FF4E50;
-    border: none;
+    border: 1px solid #FF4E50;
     border-radius: 4rem;
     color: #ffffff;
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.8rem;
+    transition: all .3s;
     cursor: pointer; }
+    .header__cta:hover {
+      background-color: #ffffff;
+      color: #FF4E50; }
 
 .how-it-works {
   width: 96rem; }
@@ -120,6 +128,58 @@ html {
     font-weight: 300;
     color: #E3E3E3; }
 
+.meet-person {
+  width: 96rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .meet-person__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    color: #444444;
+    margin: 2rem 0 3rem 0; }
+  .meet-person__people {
+    display: flex;
+    justify-content: space-between; }
+  .meet-person__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1; }
+  .meet-person__name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #444444;
+    margin: 0 0 1.5rem; }
+  .meet-person__bio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    color: #666666;
+    padding: 0 1rem; }
+  .meet-person__cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border: 2px solid #FF4E50;
+    color: #FF4E50;
+    border-radius: 40px;
+    padding: .4rem 1.5rem;
+    margin: 3.5rem 0 3rem 0;
+    transition: all .3s;
+    cursor: pointer; }
+    .meet-person__cta:hover {
+      background-color: #FF4E50;
+      color: #ffffff; }
+
 .section-header {
   display: flex;
   justify-content: center;
@@ -130,3 +190,7 @@ html {
   display: flex;
   justify-content: center;
   padding: 5rem 0; }
+
+.section-meetperson {
+  display: flex;
+  justify-content: center; }
