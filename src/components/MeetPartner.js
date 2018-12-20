@@ -33,7 +33,6 @@ const MeetPerson = () => {
   ]
 
   return (
-
     <section className="section-meetperson">
       <div className="meet-person">
         <h2 className="meet-person__title">Meet a partner for your best</h2>
