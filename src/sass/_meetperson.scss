@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // background-color: firebrick;
   
   &__title {
     text-align: center;
@@ -21,11 +20,32 @@
   }
   
   &__content {
-    // color: $color-white;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    padding: .9rem;
+    border-radius: 50%;
+
+    &--1 {
+      background-color: $color-red;
+    }
+    &--2 {
+      background-color: #19D4CA;
+    }
+    &--3 {
+      background-color: #FFA710;
+    }
+    &--4 {
+      background-color: #667DF3;
+    }
   }
   
   &__name {
@@ -34,7 +54,7 @@
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: $color-grey-dark;
-    margin: 0 0 1.5rem;
+    margin: 2rem 0 1.5rem 0;
   }
   
   &__bio {

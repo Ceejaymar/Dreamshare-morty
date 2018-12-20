@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  width: 96rem;
+  padding: 3rem 0;
+  
+  &__title {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: $color-red;
+  }
+  
+  &__site-map {
+    flex: 1;
+    
+    & > p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: $color-grey-dark;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    list-style: none;
+    color: $color-grey-link;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-grey-dark;
+    }
+  }
+
+  &__partners {
+    flex: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: $color-grey-dark;
+  }
+}
+
