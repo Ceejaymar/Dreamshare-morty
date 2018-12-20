@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   height: 60rem;
-  background-image: linear-gradient(to bottom, rgba($color-black, .50), rgba($color-black, .50)), url('../assets/Bitmap.png');
-  // background: linear-gradient(0deg, #FF4E50 0%, #F9D423 100%);
+  background-image: linear-gradient(to bottom, rgba($color-black, .4), rgba($color-black, .4)), url('../assets/Bitmap.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-howitworks {

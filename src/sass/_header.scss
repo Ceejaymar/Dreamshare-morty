@@ -4,6 +4,10 @@
   width: 96rem;
   color: $color-white;
   font-family: 'Montserrat', sans-serif;
+  
+  @media only screen and (max-width: $screen-large) {
+    padding: 0 3rem;
+  }
 
   &__nav {
     display: flex;

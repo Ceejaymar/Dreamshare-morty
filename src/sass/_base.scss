@@ -12,6 +12,11 @@ $color-aqua: #19D4CA;
 $color-yellow: #FFA710;
 $color-lavender: #667DF3;
 
+$screen-large: 62.5em;     //  1000px
+$screen-medium: 50em;      //  800px
+$screen-small: 37.5em;     //  600px
+$screen-smallest: 20em;    //  320px
+
 * {
   padding: 0;
   margin: 0;
@@ -26,8 +31,16 @@ $color-lavender: #667DF3;
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 10 / 16 = .625, for rems
-}
 
-body {
-  // font-family: ;
+  @media only screen and (max-width: $screen-large) {
+    font-size: 50% !important;
+  }
+
+  @media only screen and (max-width: $screen-medium) {
+    font-size: 40% !important;
+  }
+
+  @media only screen and (max-width: $screen-smallest) {
+    font-size: 25% !important;
+  } 
 }

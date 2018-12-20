@@ -42,7 +42,7 @@ const MeetPerson = () => {
               let { id, image, icon, name, bio } = person;
 
               return (
-                <div key={key} className="meet-person__content">
+                <div key={key} className={`meet-person__content meet-person__content${id}`}>
                   <img className="meet-person__img" src={image} alt="person" />
                   <img src={icon} className={`meet-person__icon meet-person__icon--${id}`} alt="icon" />
                   <p className="meet-person__name">{name}</p>

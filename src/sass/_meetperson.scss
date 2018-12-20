@@ -17,6 +17,7 @@
   &__people {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   &__content {

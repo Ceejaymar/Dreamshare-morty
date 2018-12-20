@@ -51,7 +51,7 @@ const Discover = () => {
 
               return (
                 <div key={key} className={`discover__category discover__category--${id}`}>
-                  <img src={image} alt="" className="discover__img"/>
+                  <img src={image} alt="" className={`discover__img discover__img--${id}`}/>
                   <div className="discover__overlay">{idea}</div>
                 </div>
               )

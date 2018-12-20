@@ -2,6 +2,10 @@
   display: flex;
   width: 96rem;
   padding: 3rem 0;
+
+  @media only screen and (max-width: $screen-large) {
+    padding: 2rem;
+  }
   
   &__title {
     flex: 1;

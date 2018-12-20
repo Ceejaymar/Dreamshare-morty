@@ -1,5 +1,9 @@
 .how-it-works {
   width: 96rem;
+
+  @media only screen and (max-width: $screen-large) {
+    padding: 3rem;
+  }
   
   &__title {
     font-family: 'Montserrat', sans-serif;
@@ -36,6 +40,10 @@
     
     &--3 {
       background-image: linear-gradient(to top, rgba($color-black, .6), transparent), url('../assets/Card3.png');
+    }
+
+    @media only screen and (max-width: $screen-large) {
+      margin: 1rem;
     }
   }
 
